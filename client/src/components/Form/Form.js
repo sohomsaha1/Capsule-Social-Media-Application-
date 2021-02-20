@@ -32,7 +32,7 @@ const Form = ({ currentId, setCurrentId }) => {
       clear();
     }
   };
-
+// must use [...postData, title: e.target.value] syntax to ensure we only edit one Post at a time, the "..." ensures this, very important
   return (
     <Paper className={classes.paper}>
       <form autoComplete="off" noValidate className={`${classes.root} ${classes.form}`} onSubmit={handleSubmit}>
