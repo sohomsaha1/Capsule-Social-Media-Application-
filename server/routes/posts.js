@@ -4,7 +4,7 @@ import { getPosts, getPost, createPost, updatePost, likePost, deletePost } from 
 
 const router = express.Router();
 
-#using express to link database to frontend (vice versa)
+//using express to link database to frontend (vice versa)
 router.get('/', getPosts);
 router.post('/', createPost);
 router.get('/:id', getPost);
