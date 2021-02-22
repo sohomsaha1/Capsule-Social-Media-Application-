@@ -23,14 +23,14 @@ Database: MongoDB
 
 Modules used:
 
--> react-redux
--> mongoose
--> redux-thunk
--> axios
--> cors
--> body-parser
--> nodemon
--> @material-ui (styling)
+- react-redux
+- mongoose
+- redux-thunk
+- axios
+- cors
+- body-parser
+- nodemon
+- @material-ui (styling)
 
 ## How Capsule Works
 
@@ -49,7 +49,7 @@ In the frontend, we must connect it back to our database, this is where the clus
 
 #### Capsule Frontend (Realtime)
 
-![](CapsuleExample.png)
+![](Capsule Frontend.png)
 
 
 ## Next Steps
