@@ -49,7 +49,7 @@ In the frontend, we must connect it back to our database, this is where the clus
 
 #### Capsule Frontend (Realtime)
 
-![](Capsule Frontend.png)
+![](Capsule_Frontend.png)
 
 
 ## Next Steps
